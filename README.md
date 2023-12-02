@@ -25,39 +25,33 @@ Before running the project, ensure that you have the following installed:
 
    ```bash
    git clone https://github.com/syedissambukhari/Alibaba-scrapper-using-NodeJs.git
-Navigate to the project folder:
+1.Navigate to the project folder:
 
-bash
-Copy code
 cd Alibaba-scrapper-using-NodeJs
-Install dependencies:
-
-bash
-Copy code
+2.Install dependencies:
 npm install
-Configuration
-Web Scraper Settings:
+# Configuration
+1.Web Scraper Settings:
 
 Open config.js and configure the scraper settings such as the URL to scrape, selectors, etc.
 
 javascript
-Copy code
+
 module.exports = {
   url: 'your-alibaba-url',
   // Other configuration options
 };
+
 Modify the configuration according to your scraping requirements.
 
-Run the Application:
+2.Run the Application:
 
 Start the Node.js server:
 
-bash
-Copy code
 npm start
 The application should now be running. Access it at http://localhost:3000 in your web browser.
 
-Usage
+# Usage
 Open the application in your web browser.
 
 Enter the necessary parameters or click the "Scrape" button to initiate the scraping process.
