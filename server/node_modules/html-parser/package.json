@@ -1,0 +1,37 @@
+{
+	"name": "html-parser",
+	"version": "0.11.0",
+	"description": "HTML/XML parser with less explosions",
+	"keywords": [ "html", "xml", "parser", "explosion" ],
+	"author": {
+		"name": "Tommy Montgomery",
+		"email": "tmont@tmont.com",
+		"url": "http://tmont.com/"
+	},
+
+	"license": "MIT",
+
+	"contributors": [
+		{ "name": "jdponomarev" },
+		{ "name": "fiatjaf" },
+		{ "name": "Sergii Kliuchnyk" },
+		{ "name": "Edwin Hoogerbeets" }
+	],
+
+	"main": "./src/parser.js",
+
+	"files": [ "src" ],
+
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/tmont/html-parser.git"
+	},
+	"devDependencies": {
+		"mocha": "2.5.3",
+		"should": "8.2.2"
+	},
+
+	"scripts": {
+		"test": "node_modules/.bin/mocha -R dot ./tests"
+	}
+}
